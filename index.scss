@@ -1,0 +1,27 @@
+@use 'base';
+
+@mixin button-custom {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 8px;
+}
+
+body {
+    color: base.$primary-color;
+}
+
+#container-flex {
+    display: flex;
+    justify-content: space-between;
+
+    div {
+        width: 30%;
+        height: 100px;
+        background-color: base.$secondary-color;
+    }
+}
+
+button {
+    @include button-custom;
+}

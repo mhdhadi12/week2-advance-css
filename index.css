@@ -1,0 +1,22 @@
+body {
+  color: #bb1919;
+}
+
+#container-flex {
+  display: flex;
+  justify-content: space-between;
+}
+#container-flex div {
+  width: 30%;
+  height: 100px;
+  background-color: #19a3bb;
+}
+
+button {
+  padding: 20px;
+  background-color: white;
+  border: 1px solid red;
+  border-radius: 8px;
+}
+
+/*# sourceMappingURL=index.css.map */
